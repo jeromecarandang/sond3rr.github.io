@@ -152,3 +152,9 @@ footer {
     margin-top: 60px;
 
 }
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 8rem;
+    }
+}
