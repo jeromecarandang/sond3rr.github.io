@@ -84,7 +84,7 @@
     </script>
   <script>
     const getAgents = async () => {
-      var response = await fetch('https://valorant-api.com/v1/agents');
+      var response = await fetch('https://valorant-api.com/v1/agents?isPlayableCharacter=true');
       var data = await response.json();
       var agents = data.data;
       var container = document.getElementById("agentContainer");
