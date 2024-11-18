@@ -51,7 +51,7 @@ body {
     font-family: "Poppins", serif;
     transform: translate(-50%, -50%);
     color: #E5E5E5;
-    font-size: 24px;
+    font-size: clamp(10px, 1.5vw, 400px);
     font-weight: bold;
     opacity: 0; 
     transition: opacity 0.3s ease; 
