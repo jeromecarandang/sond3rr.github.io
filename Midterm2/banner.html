@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="parallax.css" />
+	<title>Parallax</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<style>
+	.anton {
+		font-family: "Anton", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		color: #321f18;
+	}
+
+	.text-poppins {
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 350;
+	}
+
+	.circle-image {
+		width: clamp(200px, 20vw, 300px);
+		height: clamp(200px, 20vw, 300px);
+		border-radius: 50%;
+		object-fit: cover;
+	}
+
+	.circle-image-creature {
+		width: clamp(200px, 20vw, 300px);
+		height: clamp(200px, 20vw, 300px);
+		border-radius: 5%;
+		object-fit: cover;
+	}
+</style>
+
+<body style="background-color: #f1e6cf;">
+	<div class="container-fluid p-0  wow animate__animated animate__fadeIn"
+		style="background-color:black; overflow-x:hidden;">
+		<div class="row">
+			<div class="col">
+				<section>
+					<div class="keyart" id="parallax">
+						<div class="keyart_layer parallax" id="keyart-0" data-speed="5"></div>
+						<div class="keyart_layer parallax" id="keyart-1" data-speed="47"></div>
+						<div class="keyart_layer parallax" id="keyart-2" data-speed="39"></div>
+						<div class="keyart_layer parallax" id="keyart-3" data-speed="38"></div>
+						<div class="keyart_layer parallax" id="keyart-4" data-speed="53"></div>
+						<div class="keyart_layer parallax" id="keyart-5" data-speed="54"></div>
+						<div class="keyart_layer parallax" id="keyart-6" data-speed="80"></div>
+						<div class="keyart_layer parallax" id="keyart-7" data-speed="50"></div>
+						<div class="keyart_layer parallax" id="keyart-8" data-speed="57"></div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+
+	<section class="main-content">
+		<div class="container-fluid d-flex align-items-center justify-content-center"
+			style="height: auto; background-color: #f1e6cf">
+			<div class="row p-5">
+				<div class="col">
+					<h1 class="anton display-1 mt-5 my-3 text-center wow animate__animated animate__fadeInUp"
+						style="font-size: clamp(50px, 10vw, 120px);"><br>Welcome to Gravity Falls</h1>
+					<h1 class="text-poppins display-1 my-5 text-center wow animate__animated animate__fadeInUp"
+						style="font-size: clamp(15px, 1.5vw, 120px);">Gravity Falls isn’t just any sleepy town tucked
+						away in Oregon—it’s a place where the unexplained thrives, and secrets are hidden in plain
+						sight. When Dipper and Mabel Pines arrive to spend the summer with their elusive Great Uncle
+						Stan, they quickly realize there's much more beneath the surface than meets the eye. Cryptic
+						journals, hidden messages, and strange creatures become part of their everyday life. But in
+						Gravity Falls, the more you discover, the more questions you’re left with. Dive into the
+						mysteries, if you dare—but remember, not everything is what it seems.
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #e2d9c6;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/book.png" class="img-fluid wow animate__animated animate__fadeInUp">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px);">THE MYSTERY</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">The mystery of Gravity
+						Falls lies in its cryptic journals, hidden secrets, and strange creatures, where nothing is ever
+						as it seems.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center p-0"
+			style="height: auto; background-color: #f1e6cf; overflow: hidden">
+			<div class="row position-relative">
+				<div class="col">
+					<div class="position-absolute top-50 start-50 translate-middle text-center">
+						<p class="anton display-1 mb-1 mt-5 pb-5 text-center wow animate__animated animate__fadeIn"
+							style="font-size: clamp(5px, 6vw, 120px); color: #1e1410; letter-spacing: 10px;">THE
+							CHARACTERS</p>
+					</div>
+					<img src="img/wp.jpg" style="width: 100%; object-fit: cover;">
+				</div>
+			</div>
+		</div>
+
+		<!-- characters -->
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #e2d9c6;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/dipper.webp" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Dipper Pines</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">A curious and determined
+						boy who’s always on the hunt for hidden secrets and paranormal mysteries.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #f1e6cf;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/mabel.png" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Mabel Pines</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">Dipper's fun-loving,
+						energetic twin sister who brings joy and optimism to every adventure.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #e2d9c6;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/stan.jpg" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Grunkle Stan</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">The gruff yet lovable
+						great uncle who runs the Mystery Shack, hiding a lot more than just odd souvenirs.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #f1e6cf;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/soos.webp" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Soos Ramirez</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">The loyal, goofy handyman
+						of the Mystery Shack, always eager to help and join in on any escapade.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #e2d9c6;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/wendy.png" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Wendy Corduroy</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">A laid-back, cool
+						teenager who works at the Mystery Shack and enjoys going on wild adventures with Dipper and
+						Mabel.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #f1e6cf;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/bill.jpg" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Bill Cipher</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">A sinister,
+						dream-manipulating demon with a triangular body who thrives on chaos and secrets.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #e2d9c6;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/gideon.png" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Gideon Gleeful</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">A scheming child psychic
+						obsessed with gaining power and taking over the Mystery Shack.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 py-5"
+			style="background-color: #f1e6cf;">
+			<div class="row d-flex align-items-center justify-content-center g-0 my-5" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center my-5" style="width: clamp(200px, 30vw, 400px);">
+					<img src="img/ford.jpeg" class="img-fluid wow animate__animated animate__fadeInUp circle-image">
+				</div>
+				<div
+					class="anton col-lg-6 d-flex flex-column justify-content-center mt-3 text-center wow animate__animated animate__fadeInUp">
+					<h1 style="font-size: clamp(50px, 5vw, 120px); letter-spacing:10px">Ford Pines</h1>
+					<p class="text-poppins px-5" style="font-size: clamp(15px, 1.3vw, 120px);">Stan's long-lost twin
+						brother, a genius scientist who has been battling the mysteries of Gravity Falls for decades.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- creatures -->
+
+		<div class="container-fluid d-flex align-items-center justify-content-center"
+			style="height: auto; background-color: #e2d9c6">
+			<div class="row">
+				<div class="col">
+					<h1 class="anton display-1 text-center wow animate__animated animate__fadeInUp"
+						style="font-size: clamp(50px, 10vw, 120px);"><br>JOURNAL SNIPPETS</h1>
+					</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid d-flex align-items-center justify-content-center my-0 p-5"
+			style="background-color: #e2d9c6;">
+			<div class="row d-flex align-items-center justify-content-center g-0" style="height: auto;">
+				<div class="col-lg-4 d-flex justify-content-center m-4" style="width: clamp(200px, 60vw, 400px);">
+					<img src="img/c1.jpeg"
+						class="img-fluid wow animate__animated animate__fadeInUp circle-image-creature">
+				</div>
+				<div class="col-lg-4 d-flex justify-content-center m-4" style="width: clamp(200px, 60vw, 400px);">
+					<img src="img/c3.png"
+						class="img-fluid wow animate__animated animate__fadeInUp circle-image-creature">
+				</div>
+				<div class="col-lg-4 d-flex justify-content-center m-4" style="width: clamp(200px, 60bh, 400px);">
+					<img src="img/c4.jpg"
+						class="img-fluid wow animate__animated animate__fadeInUp circle-image-creature">
+				</div>
+				<div class="col-lg-4 d-flex justify-content-center m-4" style="width: clamp(200px, 60bh, 400px);">
+					<img src="img/c5.png"
+						class="img-fluid wow animate__animated animate__fadeInUp circle-image-creature">
+				</div>
+				<div class="col-lg-4 d-flex justify-content-center m-4" style="width: clamp(200px, 60bh, 400px);">
+					<img src="img/c6.jpg"
+						class="img-fluid wow animate__animated animate__fadeInUp circle-image-creature">
+				</div>
+			</div>
+		</div>
+
+
+		<footer style="background-color: #f1e6cf;">
+			<div class="container d-flex flex-column align-items-center justify-content-center p-0">
+				<div class="d-flex align-items-center justify-content-center">
+					<img src="img/logo.png" class="mt-3 mx-2" style="height: 100px">
+					<img src="img/logo1.png" class="mt-2 mx-2" style="height: 100px">
+				</div>
+				<p class="text-center mb-0 mt-2">© Gravity Falls</p>
+			</div>
+		</footer>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/parallax.js"></script>
+	<script>
+		new WOW().init(); 
+	</script>
+	<script>
+		new WOW({
+			offset: 200,
+			mobile: true,
+		}).init();
+	</script>
+</body>
+
+</html>
