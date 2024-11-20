@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="icon" href="img/icon.png" type="image/png">
 </head>
+<style>
+    html,
+    body {
+        overflow: hidden;
+    }
+</style>
 
 <body>
     <nav class="navbar bg-body-tertiary">
@@ -23,9 +29,10 @@
     <div class="container-fluid p-0"
         style="background-image: url('img/1.jpg'); background-size: cover; background-position: center; height: 100vh;">
         <div class="d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
-            <img src="img/2.webp" class="mb-3 animate__animated animate__fadeIn animate__delay-1s">
+            <img src="img/2.webp" class="mb-3 animate__animated animate__fadeIn animate__delay-1s"
+                style="width: clamp(250px, 30vw, 500px)">
             <a href="list.html" class="btn btn-primary animate__animated animate__fadeIn animate__delay-1s"
-                style="font-weight: 600; text-transform: uppercase; font-size: 1rem; color: rgb(236, 232, 225); border: 0; background-color: #1c1c1c; font-family: Tungsten-Bold, sans-serif; opacity: 90%;">
+                style="width: clamp(200px, 2px, 500px); font-weight: 600; text-transform: uppercase; font-size: 1rem; color: rgb(236, 232, 225); border: 0; background-color: #1c1c1c; font-family: Tungsten-Bold, sans-serif; opacity: 90%;">
                 VIEW AGENTS
             </a>
         </div>
