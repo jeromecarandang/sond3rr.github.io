@@ -47,7 +47,7 @@ var products = [
     },
     {
       category: "Shoujo",
-      image: "assets/images/shoujo.jpg",
+      image: "assets/images/shoujo.JPG",
       contents: [
         {
           name: "Kimi ni Todoke",
