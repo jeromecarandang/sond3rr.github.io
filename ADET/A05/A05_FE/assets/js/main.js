@@ -50,7 +50,7 @@ function loadCategories() {
   });
 }
 
-function loadProducts() {
+function loadProducts(categoryID) {
   var maincontainer = document.getElementById("maincontainer");
   maincontainer.innerHTML = "";
 
