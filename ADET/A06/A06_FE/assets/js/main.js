@@ -3,7 +3,7 @@ var products = [];
 
 const getAllCategories = async () => {
   fetch(
-    'http://localhost/sond3rr.github.io/ADET/A05/A05_BE/categories.php'
+    'http://localhost/sond3rr.github.io/ADET/A06/A06_BE/categories.php'
   )
     .then(response => response.json())
     .then(data => {
@@ -18,7 +18,7 @@ const getAllProducts = async (categoryID) => {
   };
 
   fetch(
-    'http://localhost/sond3rr.github.io/ADET/A05/A05_BE/products.php', {
+    'http://localhost/sond3rr.github.io/ADET/A06/A06_BE/products.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
